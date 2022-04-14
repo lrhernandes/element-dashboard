@@ -1,6 +1,6 @@
 # element-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Portifolio project where an administrative panel is developed using Vue3
 
 ## Recommended IDE Setup
 
@@ -20,6 +20,11 @@ npm install
 
 ```sh
 npm run dev
+```
+
+### Compile and Re-Run Tailwind
+```sh
+npx tailwindcss -i style.css -o ./dist/output.css --watch
 ```
 
 ### Compile and Minify for Production
